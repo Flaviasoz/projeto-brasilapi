@@ -7,10 +7,7 @@ beforeAll(async () => {
   const chromeOptions = new Options();
   chromeOptions.addArguments('--headless');
 
-  driver = await new Builder()
-    .forBrowser('chrome')
-    .setChromeOptions(chromeOptions)
-    .build();
+  driver = await new Builder().forBrowser('chrome').build();
 });
 
 afterAll(async () => {

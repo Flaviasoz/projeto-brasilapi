@@ -2,7 +2,7 @@
 execute o comando ```yarn```
 
 # PASSO 2
-execute o comando ```yarn start```
+execute o comando ```yarn start:dev```
 acesse ao ```localhost:3000``` para acessar a tela
 
 # PASSO 3
